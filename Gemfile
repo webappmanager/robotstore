@@ -21,6 +21,7 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'therubyracer' #JavaScript runtime for CoffeeScript
 
 gem 'nifty-generators', :group => :development
 
