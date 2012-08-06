@@ -22,7 +22,7 @@ test:
 
 production:
   adapter: sqlite3
-  database: db/store/production.sqlite3
+  database: ~/databases/myrobotstore/production.sqlite3
   #adapter: postgresql
   #database: myrobotstore_production
   pool: 5
