@@ -4,10 +4,10 @@
 #   Ensure the SQLite 3 gem is defined in your Gemfile
 #   gem 'sqlite3'
 development:
-  # adapter: sqlite3
-  # database: db/store/development.sqlite3
-  adapter: postgresql
-  database: myrobotstore_development
+  adapter: sqlite3
+  database: db/store/robotstore_development.sqlite3
+  # adapter: postgresql
+  # database: myrobotstore_development
   pool: 5
   timeout: 5000
 
